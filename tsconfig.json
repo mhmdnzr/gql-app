@@ -17,6 +17,10 @@
       "@/*": ["./src/*"]
     }
   },
+  "files": [
+    "src/types/gql/graphql.d.ts",
+    "src/types/gql/gql.d.ts"
+  ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
