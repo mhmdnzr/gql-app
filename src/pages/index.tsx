@@ -40,9 +40,8 @@ export default function Home() {
         console.error(error);
         return null;
     }
-    if (users.length !== 0) {
-        console.log(users)
-    }
+
+    console.log(data)
     return (
         <>
             <Head>
